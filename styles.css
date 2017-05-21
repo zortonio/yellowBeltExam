@@ -51,5 +51,65 @@
   margin: 0 0 0 350px;
 }
 #main_img{
+  display: block;
   padding: 0 9px;
+}
+#buffer{
+  height: 5px;
+  margin: 0 9px;
+  background-color: #3B3B3B;
+}
+#offerings{
+  height: 150px;
+  margin: 0 9px;
+  background-color: #1A1A1A;
+  padding-left: 15px;
+}
+#offerings img{
+  display: inline-block;
+  vertical-align: top;
+  margin: 25px 0;
+}
+.blurb{
+  width: 165px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 30px 10px;
+}
+.blurb p{
+  font-size: .9em;
+  margin-top: 5px;
+  color: white;
+}
+.blurb h2{
+  font-size: 1.1em;
+  color: #F3852C;
+}
+#buy_now{
+  height: 150px;
+  margin: 0 9px;
+  color: white;
+  background: repeating-linear-gradient(135deg, #020202, #020202 1px, #1F1E1F 1.5px);
+}
+#buy_text{
+  width: 676px;
+  margin: 35px 0;
+  display: inline-block;
+  padding-left: 20px;
+}
+#title{
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+#buy_btn{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 55px 20px 55px 136px;
+  background-color: orange;
+  border-radius: 5px;
+  background: linear-gradient(#F29C5B, #EF7F2C);
 }
