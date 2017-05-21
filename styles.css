@@ -3,3 +3,53 @@
   padding: 0;
   margin: 0 auto;
 }
+#container{
+  width: 994px;
+  height: 1205px;
+  background-color: #171717;
+}
+#header{
+  height: 105px;
+  margin: 0 9px;
+  background-color: #1A1A1A;
+}
+#logo{
+  margin: 14px 0 0 5px;
+}
+#header p{
+  margin: 29px 5px 0 586px;
+  display: inline-block;
+  vertical-align: top;
+  color: #D5D6D4;
+}
+#navBar{
+  height: 40px;
+  margin: 0 9px;
+  background-color: #585858;
+  background: linear-gradient(#585858,#121212);
+}
+#navBar p {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  color: #A1A7A4;
+  padding: 0 15px;
+}
+.bar{
+  width: 2px;
+  height: 26px;
+  margin: 7px 0;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #525252;
+  box-shadow: 1px 1px inset;
+  border-radius: 5px;
+}
+.bar:last-of-type {
+  height: 40px;
+  margin: 0 0 0 350px;
+}
+#main_img{
+  padding: 0 9px;
+}
