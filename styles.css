@@ -8,6 +8,9 @@
   height: 1205px;
   background-color: #171717;
 }
+#header, #navBar{
+  font-family: Arial, sans-serif;
+}
 #header{
   height: 105px;
   margin: 0 9px;
@@ -17,10 +20,12 @@
   margin: 14px 0 0 5px;
 }
 #header p{
-  margin: 29px 5px 0 586px;
+  margin: 29px 5px 0 579px;
   display: inline-block;
   vertical-align: top;
   color: #D5D6D4;
+  font-weight: bold;
+  font-size: .95em;
 }
 #navBar{
   height: 40px;
@@ -35,6 +40,8 @@
   line-height: 40px;
   color: #A1A7A4;
   padding: 0 15px;
+  font-size: .75em;
+  font-weight: bold;
 }
 .bar{
   width: 2px;
@@ -48,7 +55,7 @@
 }
 .bar:last-of-type {
   height: 40px;
-  margin: 0 0 0 350px;
+  margin: 0 0 0 390px;
 }
 #main_img{
   display: block;
@@ -77,9 +84,11 @@
   margin: 30px 10px;
 }
 .blurb p{
-  font-size: .9em;
+  font-size: .8em;
+  line-height: 1.5em;
   margin-top: 5px;
-  color: white;
+  color: #CFCFCF;
+  font-family: Arial, sans-serif;
 }
 .blurb h2{
   font-size: 1.1em;
@@ -96,10 +105,16 @@
   margin: 35px 0;
   display: inline-block;
   padding-left: 30px;
+  font-family: Arial, sans-serif;
+}
+#filler_text{
+  font-size: .9em;
+  color: #B0B0A1;
 }
 #title{
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #F2F2F2;
 }
 #buy_btn{
   width: 120px;
@@ -127,12 +142,14 @@
   margin-left: 9px;
   font-size: 1.2em;
   padding-left: 10px;
+  color: #F2F2F2;
 }
 #portfolio_header p:last-child{
   margin-right: 9px;
   text-align: right;
-  font-size: 0.85em;
+  font-size: 0.75em;
   color: #F3852C;
+  font-family: Arial, sans-serif;
 }
 #projects_container{
   margin: 0 9px;
@@ -153,14 +170,16 @@
 }
 .project p{
   color: white;
-  font-size: 0.83em;
+  font-size: 0.76em;
   line-height: 18px;
+  color: #CFCFCF;
+  font-family: Arial, sans-serif;
 }
 #bTT{
-  font-size: .75em;
+  font-size: .65em;
   text-align: right;
   line-height: 80px;
   color: #7C7865;
   margin-right: 15px;
-
+  font-family: Arial, sans-serif;
 }
